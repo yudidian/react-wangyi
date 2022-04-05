@@ -1,0 +1,42 @@
+@import "src/assets/css/mixin";
+.hotRecommend{
+    @include header();
+    .content{
+      width: 720px;
+      padding-top: 50px;
+      ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li{
+          display: flex;
+          flex-direction: column;
+          padding-left: 10px;
+          padding-bottom: 30px;
+          .cover{
+            position: relative;
+            img{
+              width: 140px;
+              height: 140px;
+              background-color: red;
+            }
+            p{
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 140px;
+              height: 30px;
+              background-color: rgba(47, 47, 47, 0.4);
+            }
+          }
+          .describe{
+            width: 140px;
+            height: 40px;
+            @include clamp(2);
+          }
+        }
+      }
+    }
+}

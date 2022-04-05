@@ -1,0 +1,30 @@
+.content{
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  .left{
+    width: 720px;
+  }
+  .right{
+    width: 260px;
+    height: 10000px;
+    background-color: #3ed433;
+  }
+}
+.recommendSwiper {
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  .btn-next {
+    right: 70px;
+    color: #7DC9EC;
+  }
+  .btn-prev{
+    left: 70px;
+    color: #7DC9EC;
+  }
+  .recommendSlide{
+    width: 980px;
+  }
+}
