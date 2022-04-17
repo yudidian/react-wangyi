@@ -1,81 +1,100 @@
 @import "src/assets/css/mixin";
-
 .songList {
-  @include header();
-  .content{
-    width: 720px;
-    margin-top: 60px;
-    background-color: #F4F4F4;
-    display: flex;
-    justify-content: flex-start;
-    li{
-      flex: 1;
-      border-left: 1px solid black;
-      .top{
+    @include header();
+    .content {
+        width: 720px;
+        margin-top: 60px;
+        background-color: #F4F4F4;
         display: flex;
         justify-content: flex-start;
-        margin-top: 16px;
-        .top-left{
-          margin-left: 16px;
-          img{
-            width: 80px;
-            height: 80px;
-            box-shadow: 0px 2px 4px #242424;
-          }
-        }
-        .top-right{
-          width: 80px;
-          height: 80px;
-          margin-left: 14px;
-          p{
-            padding-top: 10px;
-            font-size: 18px;
-            font-weight: 600;
-          }
-          .right-btn{
-            display: flex;
-            .btn-left{
-              width: 22px;
-              height: 22px;
-              background-image: url("../../../image/index.png");
-              background-position: 146px 260px;
+        &>li {
+            flex: 1;
+            border-left: 1px solid black;
+            .top {
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 16px;
+                .top-left {
+                    margin-left: 16px;
+                    img {
+                        width: 80px;
+                        height: 80px;
+                        box-shadow: 0px 2px 4px #242424;
+                    }
+                }
+                .top-right {
+                    width: 80px;
+                    height: 80px;
+                    margin-left: 14px;
+                    p {
+                        padding-top: 10px;
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                    .right-btn {
+                        display: flex;
+                        .btn-left {
+                            width: 22px;
+                            height: 22px;
+                            background-image: url("../../../image/index.png");
+                            background-position: 146px 260px;
+                        }
+                        .btn-right {
+                            width: 22px;
+                            height: 22px;
+                            background-image: url("../../../image/index.png");
+                            background-position: 114px 260px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
             }
-            .btn-right{
-              width: 22px;
-              height: 22px;
-              background-image: url("../../../image/index.png");
-              background-position: 114px 260px;
-              margin-left: 10px;
+            .bottom {
+                margin-top: 20px;
+                .bottom-item {
+                    &:hover .item-image {
+                        visibility: visible;
+                    }
+                    display: flex;
+                    border-left: none;
+                    height: 32px;
+                    &:nth-child(odd) {
+                        background-color: #E8E8E8;
+                    }
+                    .item-index {
+                        width: 20px;
+                        text-align: center;
+                        font-weight: 700;
+                        line-height: 32px;
+                    }
+                    .item-name {
+                        line-height: 32px;
+                        width: 80px;
+                        text-indent: 1em;
+                    }
+                    .item-image {
+                        visibility: hidden;
+                        display: flex;
+                        width: 120px;
+                        height: 35px;
+                        align-items: center;
+                        justify-content: flex-end;
+                        .image-btn {
+                            width: 30px;
+                            height: 35px;
+                            background-image: url("../../../image/index.png");
+                            background-position: 152px 237px;
+                            cursor: pointer;
+                            &:nth-child(2) {
+                                background-position-x: 122px;
+                            }
+                            &:nth-child(3) {
+                                background-position-x: 92px;
+                            }
+                        }
+                    }
+                }
             }
-          }
         }
-      }
-      .bottom{
-        margin-top: 20px;
-        .bottom-item{
-          display: flex;
-          border-left: none;
-          height: 32px;
-          &:nth-child(odd){
-            background-color: #E8E8E8;
-          }
-          .item-index{
-            width: 20px;
-            text-align: center;
-            font-weight: 700;
-            line-height: 32px;
-          }
-          .item-name{
-            line-height: 32px;
-            width: 80px;
-            text-indent: 1em;
-          }
-          .item-image{
-            width: 120px;
-            background-color: #3ed433;
-          }
-        }
-      }
     }
-  }
 }

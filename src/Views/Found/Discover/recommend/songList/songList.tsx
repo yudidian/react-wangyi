@@ -15,126 +15,135 @@ export default function SongList() {
                     <div className={style.top}>
                         <div className={style["top-left"]}>
                             <img src="https://p4.music.126.net/pcYHpMkdC69VVvWiynNklA==/109951166952713766.jpg?param=100y100
-" alt=""/>
+" alt="" />
                         </div>
                         <div className={style["top-right"]}>
                             <p>飙升榜</p>
                             <div className={style["right-btn"]}>
-                                <a href="javascript:;" className={style["btn-left"]}></a>
-                                <a href="javascript:;" className={style["btn-right"]}></a>
+                                <a href="#!" className={style["btn-left"]} title="播放"></a>
+                                <a href="#!" className={style["btn-right"]} title="收藏"></a>
                             </div>
                         </div>
                     </div>
                     <div className={style.bottom}>
-                        <li className={style["bottom-item"]}>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                            <span className={style["item-image"]}></span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                            <span className={style["item-image"]}>
+                                <div className={style["image-btn"]}></div>
+                                <div className={style["image-btn"]}></div>
+                                <div className={style["image-btn"]}></div>
+                            </span>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                            <span className={style["item-image"]}>
+                                <div className={style["image-btn"]}></div>
+                                <div className={style["image-btn"]}></div>
+                                <div className={style["image-btn"]}></div>
+                            </span>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
+                        </div>
                     </div>
                 </li>
                 <li>
                     <div className={style.top}>
                         <div className={style["top-left"]}>
-                            <img src="https://p4.music.126.net/wVmyNS6b_0Nn-y6AX8UbpQ==/109951166952686384.jpg?param=100y100" alt=""/>
+                            <img src="https://p4.music.126.net/wVmyNS6b_0Nn-y6AX8UbpQ==/109951166952686384.jpg?param=100y100" alt="" />
                         </div>
                         <div className={style["top-right"]}>
                             <p>飙升榜</p>
                             <div className={style["right-btn"]}>
-                                <a href="javascript:;" className={style["btn-left"]}></a>
-                                <a href="javascript:;" className={style["btn-right"]}></a>
+                                <a href="#!" className={style["btn-left"]}></a>
+                                <a href="#!" className={style["btn-right"]}></a>
                             </div>
                         </div>
                     </div>
                     <div className={style.bottom}>
-                        <li className={style["bottom-item"]}>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
-                        <li className={style["bottom-item"]}>
+                        </div>
+                        <div className={style["bottom-item"]}>
                             <span className={style["item-index"]}>1</span>
                             <span className={style["item-name"]}>xxxxx</span>
-                        </li>
+                        </div>
                     </div>
                 </li>
-                <li>
+                <div>
                     <div className={style.top}>
                         <div className={style["top-left"]}>
-                            <img src="https://p3.music.126.net/iFZ_nw2V86IFk90dc50kdQ==/109951166961388699.jpg?param=100y100" alt=""/>
+                            <img src="https://p3.music.126.net/iFZ_nw2V86IFk90dc50kdQ==/109951166961388699.jpg?param=100y100" alt="" />
                         </div>
                         <div className={style["top-right"]}>
                             <p>飙升榜</p>
                             <div className={style["right-btn"]}>
-                                <a href="javascript:;" className={style["btn-left"]}></a>
-                                <a href="javascript:;" className={style["btn-right"]}></a>
+                                <a href="#!" className={style["btn-left"]}></a>
+                                <a href="#!" className={style["btn-right"]}></a>
                             </div>
                         </div>
                     </div>
@@ -180,7 +189,7 @@ export default function SongList() {
                             <span className={style["item-name"]}>xxxxx</span>
                         </li>
                     </div>
-                </li>
+                </div>
             </ul>
         </div>
     );
